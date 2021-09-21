@@ -4,11 +4,7 @@ var showTimeVisible = false;
 
 // set up event listeners
 function init(){ 
-  console.log('hi')
-  console.log(showtimeButton);
-  console.log(showtimeContainer);
   showtimeButton.addEventListener("click", function() { 
-    console.log('hello');
     showTimeVisible = !showTimeVisible; // toggle the boolean
     updateShowTimeContainer();
 	})
