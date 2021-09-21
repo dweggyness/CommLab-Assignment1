@@ -7,13 +7,13 @@
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./styles.css">
 
 </head>
 
 <body>
   <div class="mainContainer">
-    <a href="../index.html"><button class="exitButton">Go Back</button></a>
+    <a href="./index.html"><button class="exitButton">Go Back</button></a>
     <div class="spacing"></div>
     <h2> Behind the Scenes </h2>
     <div class="rowContainer">
@@ -21,7 +21,7 @@
     </div>
     <div class="rowContainer">
       <div class="videoContainer">
-        <img class="image" src="../public/scene_setup.jpg"/>
+        <img class="image" src="./public/scene_setup.jpg"/>
       </div>
       <div class="spacing"></div>
       <div class="sceneTextContainer">
@@ -37,7 +37,7 @@
       </div>
       <div class="spacing"></div>
       <div class="videoContainer">
-        <img class="image" src="../public/happy_faces.png"/>
+        <img class="image" src="./public/happy_faces.png"/>
       </div>
     </div>
     <div class="spacing"></div>
