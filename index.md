@@ -57,7 +57,7 @@
     <a href="behindTheScenes"><h2> Behind the Scenes </h2></a>
     <a href="behindTheScenes">
       <div class="videoContainer">
-        <img class="image" src="./public/behind_the_scenes.jpg">
+        <img class="image imagePortal" src="./public/behind_the_scenes.jpg">
       </div>
     </a>
     <div class="spacing"></div>

@@ -133,6 +133,10 @@ button:hover:nth-of-type(2) {
   width: 100%;
 }
 
+.imagePortal {
+  box-shadow: 2px 2px 3px #fe7b00;
+}
+
 .exitButton {
   position: absolute;
   left: 50;
