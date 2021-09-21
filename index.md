@@ -54,8 +54,8 @@
       Watch our short-film as we imagine one such transaction, filmed entirely on Zoom!
     </span>
     <div class="spacing"></div>
-    <a href="pages/behindTheScenes.html"><h2> Behind the Scenes </h2></a>
-    <a href="pages/behindTheScenes.html">
+    <a href="behindTheScenes"><h2> Behind the Scenes </h2></a>
+    <a href="behindTheScenes">
       <div class="videoContainer">
         <img class="image" src="./public/behind_the_scenes.jpg">
       </div>
