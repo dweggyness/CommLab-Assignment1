@@ -6,47 +6,102 @@
   <title>30MFF</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
-
   <link rel="stylesheet" href="./styles.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="mainContainer">
-    <section class="poster">
-      poster goes here
+    <section class="posterContainer">
+      <img class="poster" src="./public/poster.png"/>
     </section>
     <div class="spacing"></div>
-    <h2> Official Trailer </h2>
-    <div class="video">
-      Video goes here
+    <h2> Official Video </h2>
+    <div class="videoContainer">
+      <iframe 
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/S3lyfp3qGz4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
     <div class="videoButtonContainer">
-      <button>
+      <button id="showtimeButton">
         See Showtimes
       </button>
-      <button>
+      <button disabled>
         Get Tickets
       </button>
     </div>
+    <ul class="showtimesContainer">
+      <li>Today</li>
+      <li><span>3:00-3:03pm</span><span>Location: Al Manarat</span></li>
+      <li><span>3:00-3:03pm</span><span>Location: Galleria</span></li>
+      <li><span>4:00-4:03pm</span><span>Location: Al Manarat</span></li>
+      <li><span>5:00-5:03pm</span><span>Location: Al Manarat</span></li>
+      <li><span>6:00-6:03pm</span><span>Location: Al Manarat</span></li>
+      <li><span>7:00-7:03pm</span><span>Location: Al Manarat</span></li>
+    </ul>
     <div class="spacing"></div>
     <h2> Synopsis </h2>
-    <span class="synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque aliquam tempus. Sed congue ante ligula, nec vestibulum lacus pretium at. Cras fringilla eros ac urna auctor condimentum. Sed porttitor tellus facilisis orci pulvinar ullamcorper. Ut tincidunt suscipit leo in porttitor. Quisque quis sagittis dui. Sed metus diam, scelerisque eget sapien et, pellentesque egestas nulla. Mauris convallis nunc sit amet nunc sagittis pulvinar. Nullam non aliquam nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pellentesque, nulla in commodo accumsan, turpis ante sodales lorem, vel semper lorem augue in risus. Curabitur sed sollicitudin magna. Suspendisse sem turpis, fringilla vel scelerisque eu, consectetur a erat.</span>
+    <span class="synopsis">
+      What would a world where you could move physical items through the internet look like? Online transactions would be complete transformed : no more credit cards and without waiting times.
+      Watch our short-film as we imagine one such transaction, filmed entirely on Zoom!
+    </span>
     <div class="spacing"></div>
-    <h2> Behind the Scenes </h2>
+    <a href="pages/behindTheScenes.html"><h2> Behind the Scenes </h2></a>
     <a href="pages/behindTheScenes.html">
-      <div class="video">
-        Behind the scenes cover photo
+      <div class="videoContainer">
+        <img class="image" src="./public/behind_the_scenes.jpg">
       </div>
     </a>
     <div class="spacing"></div>
     <h2> Reviews </h2>
     <div class="reviewContainer">
-      <div class="review">Review 1</div>
-      <div class="review">Review 2</div>
-      <div class="review">Review 3</div>
+      <div class="review">
+        Very impactful. The actual experience of watching "Online Business with Portals" is solid.
+        <div class="flexCenter">
+          <img class="profileIcon" src="./public/profile.png"/>
+          <div class="spacingSmall"></div>
+          ---
+          <div class="spacingSmall"></div>
+          Dave 
+        </div>
+      </div>
+      <div class="review">
+        What a refreshing thing it is! Very innovative ideas, great cinematography and all the episodes
+        make you think about what the future will bring to us, and allowed a symbolic impact on the
+        awe-inspiring production value..
+        <div class="flexCenter">
+          <img class="profileIcon" src="./public/profile.png"/>
+          <div class="spacingSmall"></div>
+          ---
+          <div class="spacingSmall"></div>
+          Cat
+        </div>
+      </div>
+      <div class="review">
+        It occurred to me while watching this movie that it is genuinely no longer about the characters 
+        we focus on, but it is their adventure toward locating themselves, and we follow that adventure
+         here in an amazing blockbuster. Noticeably, the VFX, scene sets, 
+         costume designs, and the special effects themselves incredibly heightened the impact of the movie.
+        <div class="flexCenter">
+          <img class="profileIcon" src="./public/profile.png"/>
+          <div class="spacingSmall"></div>
+          ---
+          <div class="spacingSmall"></div>
+          Worker
+        </div>
+      </div>
     </div>
     <div class="spacing"></div>
   </div>
+
+  <script src="code.js"></script>
 </body>
 </html>

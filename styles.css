@@ -1,18 +1,77 @@
 body {
-  margin: 0;
+  font-family: 'Lato';
+  margin: 0;;
+  background: linear-gradient(0deg, rgba(142,149,157,0.75) 0%, rgba(255,255,255,1) 100%);
+}
+
+button {
+  border: 2px solid #008af3;
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:nth-of-type(2) {
+  border: 2px solid #ed7300;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:hover:nth-of-type(2) {
+  transform: scale(1);
 }
 
 .spacing {
   margin: 40px;
 }
 
-.poster {
-  width: 100%;
-  height: 300px;
-  background-color: gray;
+.spacingSmall {
+  margin: 10px;
 }
 
-.video {
+.posterContainer {
+  width: 100%;
+  height: 400px;
+  background-color: #7e858d;
+}
+
+.showtimesContainer {
+  display: none;
+  background: #EEE;
+  border: 2px solid black;
+  padding: 40px;
+  width: 300px;
+  transition: all 0.5 ease;
+  list-style-type: none;
+  box-shadow: 2px 2px 3px #fe7b00;
+}
+
+.showtimesContainer li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.showtimesContainer li:first-of-type {
+  margin-top: 0;
+}
+
+.poster {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.profileIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.videoContainer {
   width: 500px;
   margin: 0 10px;
   height: 300px;
@@ -45,10 +104,16 @@ body {
 }
 
 .review {
-  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
   margin: 0 40px;
-  background-color: gray;
+  padding: 20px;
   height: 300px;
+  border: 3px solid black;
+  background: #EEE;
+  box-shadow: 2px 2px 3px #008af3;
 }
 
 .rowContainer {
@@ -63,8 +128,19 @@ body {
   flex-direction: column;
 }
 
+.image {
+  height: 100%;
+  width: 100%;
+}
+
 .exitButton {
   position: absolute;
   left: 50;
   top: 50;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
