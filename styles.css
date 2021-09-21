@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.spacing {
+  margin: 40px;
+}
+
+.poster {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+}
+
+.video {
+  width: 500px;
+  margin: 0 10px;
+  height: 300px;
+  background-color: gray;
+}
+
+.videoButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.videoButtonContainer button {
+  margin: 20px 0;
+}
+
+.synopsis {
+  max-width: 500px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewContainer {
+  display: flex;
+}
+
+.review {
+  min-width: 200px;
+  margin: 0 40px;
+  background-color: gray;
+  height: 300px;
+}
+
+.rowContainer {
+  display: flex;
+  margin: 0 40px;
+}
+
+.sceneTextContainer {
+  max-width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.exitButton {
+  position: absolute;
+  left: 50;
+  top: 50;
+}
